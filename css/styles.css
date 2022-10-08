@@ -75,8 +75,7 @@ body {
 }
 .nav,.contacts {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    /**/
     
 }
 .nav .current {
@@ -144,8 +143,14 @@ body {
 .top5:focus {
     color: var(--button);
   }
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}  
 .main {
-    background: var(--footer);    
+    background: var(--footer); 
+    text-align: center;   
 }
 .slogan {
     font-weight: 900;
@@ -155,8 +160,8 @@ body {
     text-transform: uppercase; 
     color: var(--main-background);
     margin-top: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 30px;
+
 }
 .order-button {
     font-family: inherit;
