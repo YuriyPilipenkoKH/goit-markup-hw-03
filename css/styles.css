@@ -13,6 +13,15 @@
     --image-border: #EEEEEE;
 
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
@@ -24,6 +33,18 @@ body {
     border: 1px solid var(--line);
 }
 */
+.header {
+    display: flex;
+    height: 80px;
+    
+}
+.container {
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+
+    outline: 1px solid tomato;
+}
 .logo1 {
 
     font-family: 'Raleway', sans-serif;
@@ -33,6 +54,11 @@ body {
     letter-spacing: 0.03em;
     color: var(--button);
     text-decoration: none;
+    display: block;
+    
+
+
+    background-color: green;
 
 }
 .logo1-down {
@@ -45,7 +71,9 @@ body {
     text-decoration: none;    
 }
 .logo2 {
-    color: var(--logo2);    
+    color: var(--logo2);   
+    
+    background-color: beige;
 }
 
 .logo3 {
@@ -53,6 +81,7 @@ body {
 }
 .nav,.contacts {
     list-style-type: none;
+    
 }
 .nav .current {
     color: var(--button);
@@ -64,6 +93,11 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-color); 
+    display: flex;
+    margin-top: 32px;
+    margin-left: 92px;
+
+    background-color: beige;
 }
 .top2 {
     font-weight: 500;
@@ -71,7 +105,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--main-color);    
+    color: var(--main-color);  
+    
+    background-color: beige;
 }
 .top3 {
     font-weight: 500;
@@ -79,7 +115,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;    
-    color: var(--main-color);   
+    color: var(--main-color);  
+    
+    background-color: beige;
 }
 .top4 {
     font-weight: 500;
