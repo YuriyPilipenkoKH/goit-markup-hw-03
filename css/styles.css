@@ -30,7 +30,7 @@ body {
 
     outline: 1px solid tomato;
 }
-h1,h2,h3 {
+h1,h2,h3,p,ul {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -206,10 +206,10 @@ h1,h2,h3 {
 .feature-list .feature-item + .feature-item {
     margin-left: 30px;
 }
-.feature1,
-.feature2,
-.feature3,
-.feature4  {
+
+.feature  {
+    margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -250,7 +250,11 @@ h1,h2,h3 {
 }
 /*team*/
 .team {
+    
     background-color: var(--team);       
+}
+.group {
+    display: flexbox;
 }
 .team-title {
     padding-top: 94px;
@@ -266,6 +270,7 @@ h1,h2,h3 {
 .team-list {
     display: flex;
     list-style-type: none;   
+    
 }
 
 .card {
@@ -278,14 +283,16 @@ h1,h2,h3 {
     border-radius: 0px 0px 4px 4px;
 
     box-shadow: var(--box-shadow);
-
-
 }
 .team-list .card + .card {
     margin-left: 30px;
 
 }
 .name {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -293,23 +300,21 @@ h1,h2,h3 {
     color: var(--main-color);
 }
 .position {
+    display: block;
+    padding-bottom: 30px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--contact);    
 }
-/*
-.description {}
-*/
-.footer {
-    box-sizing: border-box;
+.footer {   
     background: var(--footer);
-    border: 1px solid var(logo2);
 }
-
 .address {
     list-style-type: none;
+    padding: 0;
 }
 .map {  
     display: inline-block;
@@ -332,7 +337,6 @@ h1,h2,h3 {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--mail);
-    
 }
 .tel {
     display: inline-block;
