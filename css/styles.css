@@ -19,7 +19,6 @@ body {
     color: var(--main-color);
     background-color: var(--main-background);
 }
-
 .container {
     width: 1200px;
     margin-left:auto;
@@ -33,6 +32,7 @@ h1,h2,h3,p,ul {
     margin-bottom: 0;
 }
 .header {
+
     outline: 1px solid var(--line);
 }
 .logo1 {
