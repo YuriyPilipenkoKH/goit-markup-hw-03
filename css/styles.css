@@ -19,19 +19,12 @@ body {
     color: var(--main-color);
     background-color: var(--main-background);
 }
-/*
-.header {
 
-    border: 1px solid var(--line);
-}
-*/
-.header {
- 
-}
 .container {
     width: 1200px;
     margin-left:auto;
     margin-right: auto;
+    
     padding-left: 15px;
     padding-right: 15px;
 
@@ -70,8 +63,9 @@ h1,h2,h3 {
     color: var(--main-background);    
 }
 .nav,.contacts {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
+    
 
 }
 .main-nav {
@@ -82,9 +76,6 @@ h1,h2,h3 {
     color: var(--button);
     
 }
-.nav-item {
-
-} 
 .nav .nav-item + .nav-item {
     margin-left: 50px;
 }
