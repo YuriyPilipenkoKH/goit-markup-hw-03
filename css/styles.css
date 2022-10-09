@@ -171,7 +171,7 @@ h1,h2,h3 {
 
     background-color: var(--button-active);  
 }
-
+/*features*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -190,44 +190,28 @@ h1,h2,h3 {
 }
 .feature-list {
     display: flex;
-  
 } 
-
 .feature-item {
     display: flex;
-    align-self: stretch;
-
+    
 }
 .feature-list .feature-item {  
     width: 270px;    
     flex-direction: column;
-    
-
-    
 }
 .feature-list .feature-item + .feature-item {
     margin-left: 30px;
-    
 }
-
-/*
-.nav .nav-item + .nav-item {
-    margin-left: 50px;
-*/
-
-
 .feature1,
 .feature2,
 .feature3,
 .feature4  {
-    display: inline-block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-color);
-    
+    color: var(--main-color);  
 }
 .benefit {
     font-size: 14px;
@@ -235,31 +219,35 @@ h1,h2,h3 {
     letter-spacing: 0.03em;
     color: var(--contact);    
 }
+/*work*/
 .work {
+    margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--main-color);    
+    color: var(--main-color); 
+    text-align: center;   
 }
-.work-type {
+.work-list {
+    display: flex;
+
     list-style-type: none;
 }
-/*
-.work1 {
+
+.work-item {
+    display: flex;
 
 }
-.work2 {
-
+.work-list .work-item + .work-item {
+    margin-left: 30px;
 }
-.work3 {
-  
-}
-*/
+/*team*/
 .team {
     background-color: var(--team);       
 }
-.team-tytle {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
