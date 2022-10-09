@@ -26,9 +26,7 @@ body {
 }
 */
 .header {
-    display: flex;
-    height: 80px;
-    
+ 
 }
 .container {
     width: 1200px;
@@ -39,7 +37,12 @@ body {
 
     outline: 1px solid tomato;
 }
+h1,h2,h3 {
+    margin-top: 0;
+}
 .logo1 {
+    display: block;
+    margin-right: 93px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -48,12 +51,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--button);
     text-decoration: none;
-    display: block;
-    
-
-
-    background-color: green;
-
 }
 .logo1-down {
     font-family: 'Raleway', sans-serif;
@@ -67,7 +64,6 @@ body {
 .logo2 {
     color: var(--logo2);   
     
-    background-color: beige;
 }
 
 .logo3 {
@@ -75,62 +71,50 @@ body {
 }
 .nav,.contacts {
     list-style-type: none;
-    /**/
-    
+    display: flex;
+
+}
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 .nav .current {
     color: var(--button);
+    
 }
-.top1 {
+.nav-item {
+
+} 
+.nav .nav-item + .nav-item {
+    margin-left: 50px;
+}
+.contacts .contacts-item + .contacts-item { 
+    margin-left: 50px;
+}
+.nav-3 {
+    margin-right: 344px;
+}
+
+.top1,
+.top2,
+.top3,
+.top4,
+.top5 {
+    display: block;
+    padding: 32px 0 32px 0;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-color); 
-    display: flex;
-    margin-top: 32px;
-    margin-left: 92px;
-
-    background-color: beige;
 }
-.top2 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--main-color);  
-    
-    background-color: beige;
-}
-.top3 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;    
-    color: var(--main-color);  
-    
-    background-color: beige;
-}
-.top4 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;     
-    color: var(--contact);
-        
-}
+.top4,
 .top5 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--contact);    
+    color: var(--contact);
 }
+   
 .top1:hover,
 .top2:hover,
 .top3:hover,
