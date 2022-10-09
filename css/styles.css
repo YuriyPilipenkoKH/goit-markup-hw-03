@@ -27,12 +27,13 @@ body {
     
     padding-left: 15px;
     padding-right: 15px;
-
-    outline: 1px solid tomato;
 }
 h1,h2,h3,p,ul {
     margin-top: 0;
     margin-bottom: 0;
+}
+.header {
+    outline: 1px solid var(--line);
 }
 .logo1 {
     display: inline-block;
@@ -356,12 +357,22 @@ h1,h2,h3,p,ul {
 .tel:focus {
     color: var(--button);
 }
-/*Портфоліо*/
+
+.portfolio {
+    margin-bottom: 94px;
+}                         
 .button-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+
     list-style-type: none;
     text-decoration: none;
 }
-.menu-button {
+.menu-button {    
+    padding: 6px 22px;
+
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -372,9 +383,12 @@ h1,h2,h3,p,ul {
     color: var(--main-color);
     background-color: var(--team);
     border-radius: 4px;
-    border-color: transparent; 
+    border-color: transparent;  
     border: 1px solid var(--team);  
     cursor: pointer;
+}
+.button-list .radio-button + .radio-button {
+    margin-left: 8px;
 }
 
 .menu-button:hover,
@@ -382,17 +396,30 @@ h1,h2,h3,p,ul {
     background-color: var(--button);
     color: var(--main-background);
 
-}
+}   
 
-.image-list {
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+
     list-style-type: none;
-
 }
+.flex-element {
+    display: flex;
+    width: 370px;
+    margin: 15px;
+    border: 1px solid var(--image-border);
+}
+
 .image-item {
     text-decoration: none;   
     
 }
-.image-name {
+.image-name { 
+    display: block;
+    margin: 20px 0 4px 24px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -401,6 +428,8 @@ h1,h2,h3,p,ul {
 }
 
 .image-attribute {
+    display: block;
+    margin: 0 0 20px 24px;
 
     font-size: 16px;
     line-height: 1.85;
