@@ -150,8 +150,6 @@ h1,h2,h3 {
     margin-bottom: 200px;
     padding: 10px 32px;
 
-
-
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -161,7 +159,6 @@ h1,h2,h3 {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-background);  
-    align-items: center;
     letter-spacing: 0.06em;
     background-color: var(--button);
     border-radius: 4px;
@@ -188,12 +185,29 @@ h1,h2,h3 {
     overflow: hidden;
   }
 .features {
-    list-style-type: none;
+    
 }
+.feature-list {
+    display: flex;
+  
+} 
+
+.feature-item {
+    display: flex;
+    align-self: stretch;
+
+}
+.feature-list .feature-item {
+    
+    width: 270px;
+    flex-direction: column;
+}
+   
 .feature1,
 .feature2,
 .feature3,
 .feature4  {
+    display: inline-block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
