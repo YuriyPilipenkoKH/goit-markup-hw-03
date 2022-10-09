@@ -32,9 +32,10 @@ body {
 }
 h1,h2,h3 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 .logo1 {
-    display: block;
+    display: inline-block;
     margin-right: 93px;
 
     font-family: 'Raleway', sans-serif;
@@ -124,21 +125,33 @@ h1,h2,h3 {
     list-style: none;
 }  
 .main {
+    display: flex;
     background: var(--footer); 
-    text-align: center;   
+      
 }
 .slogan {
+    width: 700px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    margin-left: 235px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
+    text-align: center;
     color: var(--main-background);
-    margin-top: 0;
-    margin-bottom: 30px;
 
 }
 .order-button {
+    display: block;
+    margin-left: 477px;
+    margin-bottom: 200px;
+    padding: 10px 32px;
+
+
+
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
