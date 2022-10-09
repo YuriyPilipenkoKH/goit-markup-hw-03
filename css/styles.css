@@ -185,7 +185,8 @@ h1,h2,h3 {
     overflow: hidden;
   }
 .features {
-    
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 .feature-list {
     display: flex;
@@ -197,12 +198,24 @@ h1,h2,h3 {
     align-self: stretch;
 
 }
-.feature-list .feature-item {
-    
-    width: 270px;
+.feature-list .feature-item {  
+    width: 270px;    
     flex-direction: column;
+    
+
+    
 }
-   
+.feature-list .feature-item + .feature-item {
+    margin-left: 30px;
+    
+}
+
+/*
+.nav .nav-item + .nav-item {
+    margin-left: 50px;
+*/
+
+
 .feature1,
 .feature2,
 .feature3,
