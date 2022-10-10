@@ -348,12 +348,11 @@ h1,h2,h3,p,ul {
 }
 
 .portfolio {
-    margin-bottom: 94px;
+    padding: 94px 0 94px 0;
 }                         
 .button-list {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     margin-bottom: 50px;
 
     list-style-type: none;
@@ -384,12 +383,12 @@ h1,h2,h3,p,ul {
 .menu-button:focus {
     background-color: var(--button);
     color: var(--main-background);
-
 }   
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    
     margin: -15px;
 
     list-style-type: none;
@@ -406,9 +405,7 @@ h1,h2,h3,p,ul {
     
 }
 .image-name { 
-    display: block;
-    margin: 20px 0 4px 24px;
-
+    padding: 20px 24px 4px 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -417,8 +414,7 @@ h1,h2,h3,p,ul {
 }
 
 .image-attribute {
-    display: block;
-    margin: 0 0 20px 24px;
+    padding: 0 24px 20px 24px;
 
     font-size: 16px;
     line-height: 1.85;
