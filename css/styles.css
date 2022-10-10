@@ -31,6 +31,11 @@ h1,h2,h3,p,ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}  
 .header {
 
     outline: 1px solid var(--line);
@@ -61,7 +66,6 @@ h1,h2,h3,p,ul {
 }
 .logo2 {
     color: var(--logo2);   
-    
 }
 
 .logo3 {
@@ -70,8 +74,6 @@ h1,h2,h3,p,ul {
 .nav,.contacts {
     display: flex;
     list-style-type: none;
-    
-
 }
 .main-nav {
     display: flex;
@@ -87,9 +89,10 @@ h1,h2,h3,p,ul {
 .contacts .contacts-item + .contacts-item { 
     margin-left: 50px;
 }
-.nav-3 {
-    margin-right: 344px;
+.contacts {
+    margin-left: auto;
 }
+
 
 .top1,
 .top2,
@@ -123,22 +126,19 @@ h1,h2,h3,p,ul {
 .top5:focus {
     color: var(--button);
   }
-.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}  
+
 /*main*/
 .main {
-    display: flex;
+    text-align: center;
     background: var(--footer); 
+    padding: 200px 0 200px 0;
       
 }
 .slogan {
+    display: block;
     width: 700px;
-    padding-top: 200px;
+    margin: 0 auto;
     padding-bottom: 30px;
-    margin-left: 235px;
 
     font-weight: 900;
     font-size: 44px;
@@ -150,9 +150,6 @@ h1,h2,h3,p,ul {
 
 }
 .order-button {
-    display: block;
-    margin-left: 477px;
-    margin-bottom: 200px;
     padding: 10px 32px;
 
     font-family: inherit;
