@@ -395,17 +395,6 @@ h1,h2,h3,p,ul {
 .flex-element {
     display: flex;
     flex-basis: calc(33.333%-20px);
-
-
-    /*
-    border: 1px solid var(--image-border);
-    */
-}
-.project-description {
-    padding: 20px 24px;
-    border-left: 1px solid var(--image-border);
-    border-right: 1px solid var(--image-border);
-    border-bottom: 1px solid var(--image-border);
 }
 
 .image-item {
@@ -426,4 +415,11 @@ h1,h2,h3,p,ul {
     line-height: 1.85;
     letter-spacing: 0.03em;
     color: var(--contact);  
+}
+.project-description {
+    
+    padding: 20px 24px;
+    border-left: 1px solid var(--image-border);
+    border-right: 1px solid var(--image-border);
+    border-bottom: 1px solid var(--image-border);
 }
