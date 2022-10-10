@@ -327,8 +327,6 @@ h1,h2,h3,p,ul {
     color: var(--mail);
 }
 .tel {
-  
-
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -389,7 +387,6 @@ h1,h2,h3,p,ul {
     flex-wrap: wrap;
     margin: -15px;
     justify-content: center;
-
     list-style-type: none;
 }
 .flex-element {
