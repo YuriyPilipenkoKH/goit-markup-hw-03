@@ -348,7 +348,7 @@ h1,h2,h3,p,ul {
 }
 
 .portfolio {
-    padding: 94px 0 94px 0;
+    padding: 94px 0;
 }                         
 .button-list {
     display: flex;
@@ -388,14 +388,14 @@ h1,h2,h3,p,ul {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
-    justify-content: center;
+    gap: 30px;
+   
     list-style-type: none;
 }
 .flex-element {
     display: flex;
-    width: 370px;
-    margin: 15px;
+    flex-basis: auto;
+    
     border: 1px solid var(--image-border);
 }
 
