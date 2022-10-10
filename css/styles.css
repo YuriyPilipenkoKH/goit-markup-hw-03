@@ -386,7 +386,7 @@ h1,h2,h3,p,ul {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    justify-content: center;
+    
     list-style-type: none;
 }
 .flex-element {
