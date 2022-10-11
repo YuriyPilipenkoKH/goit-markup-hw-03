@@ -393,7 +393,7 @@ a>img {
 }
 .flex-element {
     display: flex;
-    flex-basis: calc(33.333%-20px) ;
+    flex-basis: 370px ;
     
 }
 
