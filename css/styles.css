@@ -289,14 +289,13 @@ a>img {
     color: var(--main-color);
 }
 .position {
-    
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--contact);    
 }
+/*footer*/
 .footer {   
     background: var(--footer);
     padding: 60px 0 60px 0;
@@ -344,7 +343,7 @@ a>img {
 .tel:focus {
     color: var(--button);
 }
-
+/*portfolio*/
 .portfolio {
     padding: 94px 0;
 }                         
@@ -393,7 +392,7 @@ a>img {
 }
 .flex-element {
     display: flex;
-    flex-basis: calc((100% - 2 * 30px) / 3);
+    flex-basis: calc((100% - 2 * 30px)/ 3);
     
 }
 
